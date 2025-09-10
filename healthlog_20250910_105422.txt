@@ -1,0 +1,46 @@
+Health Check Report - Wed Sep 10 10:54:22 UTC 2025
+=================================
+System Date and Time:
+Wed Sep 10 10:54:22 UTC 2025
+
+Uptime:
+ 10:54:22 up 33 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+CPU Load:
+Load Average: 0.00, 0.00, 0.00
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       445Mi       3.3Gi       3.4Mi       124Mi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G   74G  165G  31% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  508K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G   74G  165G  31% /mnt/c
+tmpfs           1.9G   16K  1.9G   1% /run/user/1000
+
+Top 5 Memory-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         199  0.0  0.5 107028 22400 ?        Ssl  10:21   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  0.0  0.4  66824 19152 ?        S<s  10:21   0:00 /usr/lib/systemd/systemd-journald
+systemd+     113  0.0  0.3  21456 12416 ?        Ss   10:21   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.2  0.3  21644 12264 ?        Ss   10:21   0:05 /sbin/init
+root         176  0.0  0.3 1755840 11904 ?       Ssl  10:21   0:00 /usr/libexec/wsl-pro-service -vv
+
+Service Status:
+nginx: not running
+ssh: not running
+
+Health check completed. Log saved to: healthlog_20250910_105422.txt
